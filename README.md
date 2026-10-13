@@ -2,14 +2,18 @@
 
 Spurdle is a music guessing game where users choose their favourite artists and try to guess a random song using a series of hints. Players receive more points for guessing with fewer hints, and high scores are shown on a leaderboard.
 
-## Group Member Information
+## Team
 
-| UWA ID   | Name                | GitHub Username |
-| -------- | ------------------- | --------------- |
-| 24271659 | Nathan Flack        | nathanjstack    |
-| 24364632 | Dhruv Bharuth       | BotDurv         |
-| 24443565 | Mohammad Haddadpour | Mohammadrh84    |
-| 24197094 | Surtaj Singh        | taj-sketch      |
+Developed for **CITS3403 / CITS5505 Agile Web Development** at the University of Western Australia.
+
+| Contributor | GitHub |
+| --- | --- |
+| Nathan Flack | [nathanjstack](https://github.com/nathanjstack) |
+| Dhruv Bharuth | [BotDurv](https://github.com/BotDurv) |
+| Mohammad Haddadpour | [Mohammadrh84](https://github.com/Mohammadrh84) |
+| Surtaj Singh | [taj-sketch](https://github.com/taj-sketch) |
+
+Surtaj's contributions include artist selection, leaderboard search and sorting, database integration, score validation and tests. The project was developed collaboratively by all four team members.
 
 ## Running the Project Locally
 
@@ -26,8 +30,8 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Mohammadrh84/Spurdle.git
-cd Spurdle
+git clone https://github.com/taj-sketch/spurdle.git
+cd spurdle
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -104,7 +108,8 @@ Then open the local address shown in the terminal, usually:
 http://127.0.0.1:5000
 ```
 
-# Running Tests
+## Running Tests
+
 1. Ensure Google Chrome is installed (as this is the browser the tests will run on)
 2. First make sure the test live server is running by entering `python test_run.py` into the terminal (this uses the test server which uses a test database rather than the main game database)
 3. In a separate terminal window, while the test server is running, run the tests with `python -m unittest discover tests`
